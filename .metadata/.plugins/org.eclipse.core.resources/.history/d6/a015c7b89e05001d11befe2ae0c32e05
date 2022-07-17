@@ -1,0 +1,21 @@
+package com.ivy;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class SortingDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<Integer> numbers = new ArrayList<Integer>();
+		numbers.add(35);
+		numbers.add(351);
+		numbers.add(25);
+		numbers.add(15);
+		numbers.add(55);
+		Collections.sort(numbers);
+		System.out.println(numbers)
+	}
+
+}

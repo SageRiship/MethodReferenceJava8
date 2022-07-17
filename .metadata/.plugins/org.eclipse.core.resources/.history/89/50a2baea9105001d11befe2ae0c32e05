@@ -1,0 +1,13 @@
+package com.ivy;
+
+public class Program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Demo d = ()->System.out.println("m1() method from Program");
+		
+		d.m1();
+
+	}
+
+}

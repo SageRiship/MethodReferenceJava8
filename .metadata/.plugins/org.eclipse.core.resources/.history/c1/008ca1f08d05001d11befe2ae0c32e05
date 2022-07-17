@@ -1,0 +1,15 @@
+package com.ivy;
+
+public class Program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		DemoImpl demoimpl = new DemoImpl();
+		
+		Demo d = demoimpl :: m1();
+		
+		Demo d = DemoImpl::m1();
+
+	}
+
+}

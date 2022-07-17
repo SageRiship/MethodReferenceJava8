@@ -1,0 +1,6 @@
+package com.ivy;
+
+@FunctionalInterface
+public interface Demo {
+	void m1();
+}
